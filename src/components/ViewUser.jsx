@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 // import { Card } from "flowbite-react";
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:4000/users';
+const apiUrl = 'https://j-sondb.vercel.app/users';
 
 function ViewUser() {
   const { id } = useParams();

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ConfirmDeleteUser from './ConfirmDeleteUser';
 
-const apiUrl = 'http://localhost:4000/users';
+const apiUrl = 'https://j-sondb.vercel.app/users';
 function UserList() {
   const [users, setUsers] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:4000/users';
+const apiUrl = 'https://j-sondb.vercel.app/users';
 
 function EditUser() {
   const { id } = useParams();

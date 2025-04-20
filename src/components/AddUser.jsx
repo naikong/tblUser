@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:4000/users';
+const apiUrl = 'https://j-sondb.vercel.app/users';
 
 function AddUser() {
   const [newUser, setNewUser] = useState({ id: '', name: '', address: '', phone: '' });
